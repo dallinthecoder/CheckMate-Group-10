@@ -1,0 +1,12 @@
+<!doctype html><meta charset=utf-8><style>body{width:300px;margin:0;padding:18px;color:#ece8de;font:14px system-ui;background:radial-gradient(300px 160px at 100% 0,#d4b06a1c,transparent),linear-gradient(180deg,#131316,#0a0a0c)}
+.br{display:flex;align-items:center;gap:10px;margin-bottom:4px}.br svg{width:38px;height:38px}.wm{font:800 22px/1 Georgia,serif}.wm b{background:linear-gradient(180deg,#ecd49a,#a8864a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{color:#8e8b83;font:italic 12px Georgia,serif;margin:0 0 14px}
+input,select,button{width:100%;box-sizing:border-box;padding:11px 12px;margin:5px 0;border-radius:10px;border:1px solid #27272c;background:#141417;color:#ece8de;font:inherit;outline:0}input:focus,select:focus{border-color:#d4b06a}
+button{cursor:pointer;font-weight:700;background:linear-gradient(180deg,#1d1d21,#151518)}button:hover{border-color:#d4b06a}#join,#start{background:linear-gradient(180deg,#e3c887,#b8934a);color:#17130a;border:0}
+#msg{color:#d4b06a;min-height:1.2em;font-weight:600}a,small{color:#8e8b83;font-size:12px}</style>
+<div class=br><svg viewBox="0 0 40 40"><defs><linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecd49a"/><stop offset="1" stop-color="#a8864a"/></linearGradient></defs><rect x=".75" y=".75" width="38.5" height="38.5" rx="10" fill="#101012" stroke="url(#pg)" stroke-width="1.5"/><g fill="url(#pg)"><rect x="18.6" y="6" width="2.8" height="9"/><rect x="15.6" y="9" width="8.8" height="2.8"/><path d="M13 31l1.6-10.5c1.6-2.6 9.2-2.6 10.8 0L27 31z"/><rect x="11" y="31" width="18" height="3.4" rx="1.4"/></g></svg><div class=wm>Check<b>Mate</b></div></div>
+ <p class=tag>Every Student, Every Move.</p>
+<select id=role><option value=student>I'm a student<option value=teacher>I'm a teacher</select>
+<div id=st><input id=name placeholder="Full name"><input id=code placeholder="Session code" style="text-transform:uppercase"><button id=join>Join session</button><button id=me>My summary</button></div>
+<div id=te hidden><small>Presence check runs every 5 minutes during class.</small><button id=start>Start new session</button><button id=dash>Open teacher dashboard</button></div>
+<p id=msg></p><a id=reset href=#>Reset</a><script src=config.js></script><script src=popup.js></script>
