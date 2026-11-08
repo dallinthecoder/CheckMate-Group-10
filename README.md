@@ -4,7 +4,7 @@
 2. Deploy > New deployment > Web app > Execute as: Me, Who has access: Anyone > Deploy > authorize > copy the /exec URL.
 3. Paste the URL into config.js (CFG.DB).
 4. chrome://extensions > Developer mode > Load unpacked > select this folder (reload after editing config.js).
-## Use
+## How to use the extension based on roles:
 - Teacher: popup > "I'm a teacher" > Start new session > share the code. Dashboard shows live data + CSV report.
 - Student: popup > name + code > Join session > open Meet. Tracking starts when they are in the call and ends on leaving (code is cleared; a summary page opens).
 ## Notes
